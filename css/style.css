@@ -23,6 +23,29 @@ main .main-container {
   background-color: #fff;
 }
 
+.main-container .row{
+  height: calc(100% / 3);
+
+}
+
+.main-container .card-box{
+  float: left;
+  width: calc(100% / 4 );
+  height: 100%;
+  background-color: red;
+}
+
+.card{
+  position: relative;
+  top: 5%;
+  border-radius: 5%;
+  background-color: blue;
+  height: 90%;
+  width: 85%;
+  margin:auto;
+
+}
+
 footer{
   height: 10vh;
   text-align: center;
