@@ -55,7 +55,7 @@ background-repeat: no-repeat;
 background-color: #fff;
 }
 
-.card > .didascalia{
+.card > h3.didascalia{
   font-size: 20px;
   color:purple;
   position: absolute;
@@ -63,6 +63,45 @@ background-color: #fff;
   bottom: 4%;
   left:50%;
 }
+
+h3.didascalia.nascosta{
+  display:none;
+}
+
+.card:hover h3.didascalia.nascosta{
+  display:block;
+}
+
+.card:hover{
+  display:block;
+  background-image: url(../img/noun_air_balloon_3134741.png);
+  background-size: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.card.tractor:hover{
+  background-image: url(../img/noun_Tractor_3134797.png);
+}
+
+.card.bicycle:hover{
+  background-image: url(../img/noun_Bicycle_3134821.png);
+}
+
+.card.ship:hover{
+  background-image: url(../img/noun_Cruise_Ship_3134824.png);
+}
+
+.card.tram:hover{
+  background-image: url(../img/noun_Tram_3134750.png);
+}
+
+.card.submarine:hover{
+  background-image: url(../img/noun_Submarine_3134738.png);
+}
+
+
 
 footer{
   height: 10vh;
