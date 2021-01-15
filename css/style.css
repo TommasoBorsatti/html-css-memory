@@ -7,6 +7,7 @@
 body{
   background-color: #ADD8E6;
   font-family: 'Nerko One', cursive;
+  text-shadow: 1px 1px 2px rgba(25, 25, 26, 0.5);
 }
 
 header{
@@ -57,11 +58,15 @@ background-color: #fff;
 
 .card > h3.didascalia{
   font-size: 20px;
-  color:purple;
+  color:#e67919;
   position: absolute;
   transform: translate(-50%);
   bottom: 4%;
   left:50%;
+}
+
+h3.didascalia.nota{
+  color: #e61986;
 }
 
 h3.didascalia.nascosta{
@@ -108,5 +113,5 @@ footer{
   text-align: center;
   padding-bottom: 5vh;
   padding-top: 2vh;
-  font-size: 14px;
+  font-size: 12px;
 }
