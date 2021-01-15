@@ -11,27 +11,22 @@ body{
 }
 
 header{
-  height: 10vh;
+  padding-top: 15px;
   text-align: center;
-  line-height: 10vh;
   color: #fff;
   font-size: 30px;
 }
 main .main-container {
   margin:auto;
   width: 50%;
-  height:80vh;
-}
-
-.main-container .row{
-  height: calc(100% / 3);
-
+  height:650px;
+  text-align: center;
 }
 
 .main-container .card-box{
-  float: left;
-  width: calc(100% / 4 );
-  height: 100%;
+  display: inline-block;
+  width:20%;
+  height: 200px;
 }
 
 .card{
@@ -57,7 +52,7 @@ background-color: #fff;
 }
 
 .card > h3.didascalia{
-  font-size: 20px;
+  font-size: 15px;
   color:#e67919;
   position: absolute;
   transform: translate(-50%);
@@ -107,11 +102,8 @@ h3.didascalia.nascosta{
 }
 
 
-
 footer{
-  height: 10vh;
+  height: 100px;
   text-align: center;
-  padding-bottom: 5vh;
-  padding-top: 2vh;
   font-size: 12px;
 }
